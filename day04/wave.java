@@ -13,6 +13,8 @@ class Main
       for(int j = 0; j < r; j++)
         arr[i][j] = in.nextInt();
 
+    in.close();
+    
     for(int i = 0; i < r; i++)
       if(i % 2 == 0)
       	for(int j = 0; j < c; j++)
