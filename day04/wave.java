@@ -1,8 +1,6 @@
 import java.util.Scanner;
-class Main
-{
-  public static void main(String args[])
-  {
+class Main{
+  public static void main(String args[]){
     
     Scanner in = new Scanner(System.in);
     int c = in.nextInt();
@@ -22,6 +20,6 @@ class Main
       else
       	for(int j = 0; j < c; j++)
         	System.out.print(arr[c-1-j][i]+" ");
-
+    System.out.println();
   }
 }
