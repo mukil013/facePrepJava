@@ -8,7 +8,6 @@ public class powerOfNums {
             return 1;
         else if(power == 1)
             return base;
-
         return base * sqrt(base,power-1);
     }
     public static void main(String[] args) {
