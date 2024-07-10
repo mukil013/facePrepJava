@@ -10,14 +10,14 @@ public class sumOfNumbers {
         String ans = new String();
         for (int i = 0; i < alphaNums.length; i++) {
             if(alphaNums[i].matches("[0-9]"))
-                ans=ans+alphaNums[i];
+                ans += alphaNums[i];
             else{
-                if(!ans.equals(""))
+                if(!ans.isEmpty())
                     nums += Integer.parseInt(ans);
                 ans="";
             }
         }
-        if(!ans.equals(""))
+        if(!ans.isEmpty())
             nums += Integer.parseInt(ans);
         System.out.println(nums);
         in.close();
